@@ -1,0 +1,705 @@
+/*=============================
+HEADER
+=============================*/
+
+@media(max-width:991px){
+
+.custom-navbar{
+
+    background:rgba(8,39,29,.98);
+
+}
+
+.navbar-collapse{
+
+    margin-top:20px;
+
+    background:rgba(8,39,29,.98);
+
+    padding:25px;
+
+    border-radius:15px;
+
+}
+
+.nav-link{
+
+    padding:12px 0;
+
+}
+
+.btn-register{
+
+    width:100%;
+
+    text-align:center;
+
+}
+
+.logo{
+
+    height:52px;
+
+}
+
+}
+/*=========================================
+Hero Responsive
+=========================================*/
+
+@media(max-width:991px){
+
+.hero-section{
+
+    min-height:auto;
+
+}
+
+.hero-content{
+
+    padding-top:150px;
+
+    padding-bottom:70px;
+
+}
+
+.hero-text{
+
+    text-align:center;
+
+}
+
+.hero-text h1{
+
+    font-size:2.6rem;
+
+}
+
+.hero-text p{
+
+    margin:auto;
+
+    margin-bottom:35px;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.hero-card-wrapper{
+
+    justify-content:center;
+
+    margin-top:60px;
+
+    min-height:auto;
+
+}
+
+.meeting-card{
+
+    flex-direction:column;
+
+    width:100%;
+
+    gap:25px;
+
+}
+
+.divider{
+
+    width:100%;
+
+    height:1px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.hero-text h1{
+
+    font-size:2rem;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+}
+
+.btn-primary-custom,
+
+.btn-outline-custom{
+
+    width:100%;
+
+}
+
+.hero-tag{
+
+    font-size:.8rem;
+
+}
+
+}
+/*=========================================
+STATISTICS
+=========================================*/
+
+@media(max-width:991px){
+
+.stat-box{
+
+    border-right:none;
+
+    border-bottom:1px solid #ececec;
+
+    justify-content:flex-start;
+
+    padding:28px 20px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.stat-box{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+.stat-icon{
+
+    width:60px;
+
+    height:60px;
+
+    font-size:1.6rem;
+
+}
+
+.stat-content h2{
+
+    font-size:2rem;
+
+}
+
+.stat-content p{
+
+    font-size:.85rem;
+
+}
+
+}
+/*=========================================
+ABOUT SECTION
+=========================================*/
+
+@media(max-width:991px){
+
+.section-title{
+
+    text-align:center;
+
+}
+
+.title-line{
+
+    margin:18px auto 0;
+
+}
+
+.about-content{
+
+    text-align:center;
+
+}
+
+.about-feature{
+
+    justify-content:center;
+
+}
+
+.about-image{
+
+    margin-bottom:20px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.section-title h2{
+
+    font-size:2rem;
+
+}
+
+.about-content p{
+
+    font-size:.95rem;
+
+}
+
+.about-feature{
+
+    padding:12px 15px;
+
+}
+
+}
+/*=========================================
+FOUR PILLARS
+=========================================*/
+
+@media(max-width:991px){
+
+.pillar-card{
+
+    padding:35px 25px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.pillar-card{
+
+    padding:30px 22px;
+
+}
+
+.pillar-icon{
+
+    width:75px;
+
+    height:75px;
+
+    font-size:2rem;
+
+}
+
+.pillar-card h4{
+
+    font-size:1.4rem;
+
+}
+
+}
+/*=========================================
+BLUEPRINT
+=========================================*/
+
+@media(max-width:991px){
+
+.blueprint-flow{
+
+    flex-direction:column;
+
+}
+
+.flow-line{
+
+    width:4px;
+
+    height:45px;
+
+    margin:0 auto;
+
+}
+
+.flow-item{
+
+    max-width:380px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.flow-icon{
+
+    width:75px;
+
+    height:75px;
+
+    font-size:1.7rem;
+
+}
+
+.flow-item h5{
+
+    font-size:1.2rem;
+
+}
+
+.flow-item h4{
+
+    font-size:1.5rem;
+
+}
+
+}
+/*=========================================
+WHY JOIN
+=========================================*/
+
+@media(max-width:991px){
+
+.join-card{
+
+    padding:30px 24px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.join-card{
+
+    padding:28px 22px;
+
+}
+
+.join-icon{
+
+    width:70px;
+
+    height:70px;
+
+    font-size:1.8rem;
+
+}
+
+.join-card h4{
+
+    font-size:1.3rem;
+
+}
+
+}
+
+/*=========================================
+WHY SAMRRUDDHI
+=========================================*/
+
+@media(max-width:991px){
+
+.why-image{
+
+    margin:20px 0 40px;
+
+}
+
+.why-image img{
+
+    max-width:260px;
+
+}
+
+.usp-card{
+
+    margin-bottom:20px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.usp-card{
+
+    flex-direction:column;
+
+    text-align:center;
+
+    align-items:center;
+
+    padding:22px;
+
+}
+
+.usp-card i{
+
+    margin-bottom:12px;
+
+}
+
+.why-image img{
+
+    max-width:220px;
+
+}
+
+}
+
+/*=========================================
+IDEAL MEMBERS
+=========================================*/
+
+@media(max-width:991px){
+
+.member-cta{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.member-card{
+
+    padding:30px 22px;
+
+}
+
+.member-icon{
+
+    width:72px;
+
+    height:72px;
+
+    font-size:1.8rem;
+
+}
+
+.member-cta{
+
+    padding:30px 25px;
+
+}
+
+.member-cta h3{
+
+    font-size:1.6rem;
+
+}
+
+}
+/*=========================================
+MEETING FLOW
+=========================================*/
+
+@media(max-width:768px){
+
+.meeting-timeline::before{
+
+    left:30px;
+
+}
+
+.timeline-item{
+
+    flex-direction:column;
+
+    padding-left:70px;
+
+}
+
+.timeline-time{
+
+    width:auto;
+
+    text-align:left;
+
+    margin-bottom:15px;
+
+    padding-top:0;
+
+}
+
+.timeline-icon{
+
+    position:absolute;
+
+    left:0;
+
+    margin:0;
+
+    width:55px;
+
+    height:55px;
+
+    font-size:1.3rem;
+
+}
+
+.timeline-content{
+
+    width:100%;
+
+}
+
+}
+/*=========================================
+GALLERY
+=========================================*/
+
+@media(max-width:768px){
+
+.gallery-card img{
+
+    height:240px;
+
+}
+
+.gallerySwiper .swiper-button-next,
+
+.gallerySwiper .swiper-button-prev{
+
+    display:none;
+
+}
+
+}
+/*=========================================
+TESTIMONIALS
+=========================================*/
+
+@media(max-width:768px){
+
+.testimonial-card{
+
+    padding:30px;
+
+}
+
+.quote-icon{
+
+    width:60px;
+
+    height:60px;
+
+    font-size:1.7rem;
+
+}
+
+.testimonial-user img{
+
+    width:60px;
+
+    height:60px;
+
+}
+
+}
+
+/*=========================================
+VISIT
+=========================================*/
+
+@media(max-width:991px){
+
+.map-card iframe{
+
+    min-height:350px;
+
+}
+
+.visit-card,
+
+.register-card,
+
+.map-card{
+
+    padding:30px;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.visit-card,
+
+.register-card,
+
+.map-card{
+
+    padding:25px;
+
+}
+
+.register-icon{
+
+    font-size:3rem;
+
+}
+
+.meeting-details li{
+
+    gap:15px;
+
+}
+
+.meeting-details i{
+
+    width:48px;
+
+    height:48px;
+
+}
+
+}
+/*=========================================
+FOOTER
+=========================================*/
+
+@media(max-width:991px){
+
+.footer-top{
+
+    text-align:center;
+
+}
+
+.social-icons{
+
+    justify-content:center;
+
+}
+
+}
+
+@media(max-width:576px){
+
+.footer-logo{
+
+    width:150px;
+
+}
+
+.footer-bottom{
+
+    text-align:center;
+
+}
+
+.footer-bottom .text-md-end{
+
+    margin-top:10px;
+
+    text-align:center !important;
+
+}
+
+}
